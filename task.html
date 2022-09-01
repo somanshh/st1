@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>SIGN UP FORM</title>
+</head>
+<body>
+    <header><h3>Sign Up</h3></header>
+
+    <main>
+        <form>
+        <label class="text" for="name">First Name</label>
+        <input placeholder="Enter First Name " type="text" name="fname" id="fname"><br>
+        <label class="text" for="name">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter Last Name "><br>
+        <label class="text" for="name">Screen Name</label>
+        <input type="text" name="sname" id="sname" placeholder="Enter Screen Name "><br>
+        <label class="text" for="DOB">Date of Birth</label>
+        <input class="dob" type="number" name="date" id="date" min="1" max="31" placeholder="5" >
+        <select class="month" name="month" id="month" >
+            <option value="January">Jan</option>
+            <option value="Feburary">Feb</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="Ausgust">Aug</option>
+            <option value="September">Sept</option>
+            <option value="October">Oct</option>
+            <option value="November">Nov</option>
+            <option value="December">Dec</option>
+        </select>
+        <input class="dob" type="number" name="year" id="year" min="1990" max="2022" placeholder="EX: 2002"><br>
+        <label class="text" for="gender">Gender</label>
+        <input class="gender" type="radio" name="gender" id="male">
+        <label class="" for="male">Male</label>
+        <input class="gender" type="radio" name="gender" id="male">
+        <label class="" for="female">Female</label><br><br>
+        <label class="text" for="Country">Country</label>
+        <select class="country" id="country" name="country">
+            <option value="india">INDIA</option>
+            <option value="india">USA</option>
+            <option value="india">CANADA</option>
+            <option value="india">ENGLAND</option>
+        </select><br>
+        <label class="text" for="E-mail">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="abc@xyz.com"><br>
+        <label class="text" for="phNumber">Phone</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="Enter Phone Number"><br>
+        <label class="text" for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Password"><br>
+        <label class="text" for="cpass">Confirm Password</label>
+        <input type="password" name="cpass" id="cpass" placeholder="Confirm your password"><br>
+        <input class="agree" type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to the Terms of Use</label>
+        </form>
+    </main>
+    <footer>
+        <!-- <input class="agree" type="checkbox" name="agree" id="agree">
+        <label class="" for="agree">I agree to the Terms of Use</label>  -->
+        <input class="submit" type="Submit" name="Submit" id="Submit" value="Submit">
+        <input class="cancel" type="Cancel" name="Cancel" id="Cancel" value="Cancel"><br>
+    </footer>
+</body>
+</html>

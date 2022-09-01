@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="viva.css">
+</head>
+<body>
+    <div id="signup">
+        <div class="header">
+            Sign Up
+        </div>
+        <div class="form">
+            <div class="form-left">
+                <ul class="form-list">
+                    <li class="list-item"><label for="fname">First Name</label></li>
+                    <li class="list-item"><label for="lname">Last Name</label></li>
+                    <li class="list-item"><label for="sname">Screen Name</label></li>
+                    <li class="list-item"><label for="dob">Date of Birth</label></li>
+                    <li class="list-item"><label for="gender">Gender</label></li>
+                    <li class="list-item"><label for="email">E-mail</label></li>
+                    <li class="list-item"><label for="phone">Phone</label></li>
+                    <li class="list-item"><label for="password">Password</label></li>
+                    <li class="list-item"><label for="cpassword">Confirm Password</label></li>
+                </ul>
+                
+            </div>
+            <div class="form-right">
+                <input type="text" id="fname">
+                <input type="text" id="lname">
+                <input type="text" id="sname">
+                <div class="dob">
+                    <select name="month" id="month" tabindex="7">
+                        <option value="">January</option>
+                        <option value="">Feburary</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                        <option value="">July</option>
+                        <option value="">August</option>
+                        <option value="">September</option>
+                        <option value="">October</option>
+                        <option value="">November</option>
+                        <option value="">December</option>
+                    </select>
+                    <select name="date" id="date">
+                        <option value="">25</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="">2001</option>
+                    </select>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" name="gender" class="radio"><span>Male</span>
+                    <input type="radio" name="gender" class="radio"><span>Female</span>
+                </div>
+                <input type="email" id="email">
+                <input type="number" id="phone">
+                <input type="password" id="password">
+                <input type="password" id="cpassword">
+                <input type="checkbox" class="checkbox"><span>I agree to the Terms of Use</span>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" class="btn1">Submit</button>
+            <button type="button" class="btn2">Cancel</button>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    color: aliceblue;
+    padding: 4px;
+    font-weight: 100;
+}
+
+body
+{
+    color: lemonchiffon;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(236, 180, 12);
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    height: 97vh;
+    width: 50%;
+}
+main{
+    
+    box-sizing: border-box;
+    background: rgb(26, 8, 62);
+    padding: 5px;
+    box-sizing: border-box;
+    height: 85vh;
+    /* margin: auto; */
+}
+label{
+    /* padding: 10px; */
+}
+.country{
+    margin-left: 40%;
+    width: 60%;
+    height: 35px;
+}
+input{
+    padding-top: 2px;
+    margin-right: 10px;
+    margin-left: 40%;
+    border-style: none;
+    border-radius: 2px;
+    width: 60%;
+    height: 35px;
+}
+.dob{
+    justify-content: space-between;
+    width: auto;
+}
+.gender{
+    width: auto;
+    margin: 0%;
+    padding-left: 40%;
+    text-align: end;
+    /* justify-content: right; */
+}
+.agree{
+    width: auto;
+    margin-left: 40%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.submit{
+    width: 80px;
+    margin: 5px;
+    height: 30px;
+    color: antiquewhite;
+    background: rgb(23, 187, 5);
+}
+.cancel{
+    width: 80px;
+    margin: 5px;
+    height: 30px;
+    background: rgb(84, 175, 216);
+    color: antiquewhite;
+    text-align: center;
+}
+footer
+{
+    color: antiquewhite;
+    height: 30px;
+    /* width: 90px; */
+    /* margin-bottom: 0%; */
+    display: flex;
+    justify-content: end;
+    margin: 4px;
+    
+}
